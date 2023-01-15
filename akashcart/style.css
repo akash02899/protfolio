@@ -1,0 +1,212 @@
+/* navbar */
+
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+}
+#cart{
+    margin-left: 8px;
+}
+#searchbar{
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.6);
+}
+#tab{
+    padding: 5px;
+    margin-left: 55%;
+
+    
+}
+#navbarSupportedContents{
+    margin-left: 59%;
+}
+#tab li a{
+    color: white;
+    font-weight: bold;
+    word-spacing: 2px;
+    text-shadow: 0px 3px 10px rgba(0,0,0,0.6);
+    position: relative;
+
+}
+#tab li a::after{
+    content: ''; 
+    height: 4px;
+    width: 0%;
+    background-color: orange;
+    border-radius: 6px;
+    position: absolute;
+    left: 0;
+    bottom: -0.7px;
+    transition: 0.5s;
+}
+#tab li a:hover::after{
+    width: 100%;
+}
+.navbar-brand{
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 0px 3px 10px rgba(0,0,0,0.6);
+}
+.btn{
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.6);
+}
+#login{
+    margin-left: 8px;
+}
+#homeicon{
+    display: flex;
+    position: sticky;
+    height: 50px;
+    width: 100%;
+    /* box-shadow: 10px 5px 3px black; */
+    
+}
+
+
+/* carousel */
+
+#home .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 46%;
+    position: relative;
+    overflow: hidden;
+}
+#carousel{
+    background-color: pink;
+    width: 100%;
+    overflow: hidden;
+    z-index: 10;
+    overflow: hidden;
+}
+
+/* product */
+
+#product .card{
+    display: inline-flex;
+    margin: 1%;
+    border: none;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.6);
+    cursor: pointer;
+    border-radius: 20px;
+    overflow: hidden;
+}
+#product .card:hover{
+    box-shadow: inset -0px 3px 10px rgba(0,0,0,0.6),
+                 4px 4px 10px grey;
+}
+#product{
+    text-align: center;
+    justify-content: center;
+    /* margin-top: 5%; */
+    background-color: lightgray;
+    width: 100.9%;
+}
+#product .card img{
+    display: flex;
+}
+#productimg{
+    margin-top: 10%;
+    border-radius: 20px;
+}
+
+/* #productimg:hover{
+    box-shadow: inset -0px 3px 10px rgba(0,0,0,0.6),
+                 4px 4px 10px grey;
+} */
+
+#pname{
+    text-decoration: none;
+    text-shadow: 0px 2px 2px black;
+}
+/* footer */
+
+.footer{
+    display: block !important;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* display: block; */
+    background-color: grey;
+    height: auto;
+    padding-bottom: 5%;
+}
+#social_media svg{
+    margin-top: 30px;
+}
+.footer #copy{
+    margin-bottom: -40px !important;
+}
+
+/* loginform style */
+
+#loginbody{
+    background-color: pink;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#loginbody .container .card{
+    display: inline-flex;
+    margin: 2%;
+    border: none;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.6);
+    cursor: pointer;
+    border-radius: 20px;
+    overflow: hidden;
+}
+#loginbody .container .card:hover{
+    box-shadow: inset -0px 3px 10px rgba(0,0,0,0.6),
+                 4px 4px 10px grey;
+}                 
+
+/* signup style */
+
+#signupbody{
+   background-color: pink;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* align-content: center; */
+ 
+
+}
+#signupbody .card{
+    display: inline-flex;
+    margin: 2%;
+    border: none;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.6);
+    cursor: pointer;
+    border-radius: 20px;
+    overflow: hidden;
+   }
+#signupbody .card:hover{
+    box-shadow: inset -0px 3px 10px rgba(0,0,0,0.6),
+                 4px 4px 10px grey;
+}                 
+
+/* viewpage style */
+
+#viewbg{
+    background-color: lightgrey;
+}
+#productdetail{
+    text-align: center !important;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%;
+}
+
+
+/* cartpage style */
+
+#cartbtnn{
+    margin-left: 69%;
+}
